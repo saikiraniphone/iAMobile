@@ -12,6 +12,7 @@
 		12F922761E5A00C9004D9984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F922741E5A00C9004D9984 /* Main.storyboard */; };
 		12F922781E5A00C9004D9984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F922771E5A00C9004D9984 /* Assets.xcassets */; };
 		12F9227B1E5A00C9004D9984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F922791E5A00C9004D9984 /* LaunchScreen.storyboard */; };
+		67AE1E68E3130C687C672DD8 /* Pods_IAMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC229E72CC679F5C83C0E7B9 /* Pods_IAMobile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		12F922771E5A00C9004D9984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F9227A1E5A00C9004D9984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F9227C1E5A00C9004D9984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B8EC549642494876BED9B6 /* Pods-IAMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IAMobile/Pods-IAMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		AC229E72CC679F5C83C0E7B9 /* Pods_IAMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E202184EF46DEAC376DA513B /* Pods-IAMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAMobile/Pods-IAMobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67AE1E68E3130C687C672DD8 /* Pods_IAMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				12F9226F1E5A00C9004D9984 /* IAMobile */,
 				12F9226E1E5A00C9004D9984 /* Products */,
+				21A32C01E358180D1896B320 /* Pods */,
+				98764411C87C010F033368E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = IAMobile;
 			sourceTree = "<group>";
 		};
+		21A32C01E358180D1896B320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B8EC549642494876BED9B6 /* Pods-IAMobile.debug.xcconfig */,
+				E202184EF46DEAC376DA513B /* Pods-IAMobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98764411C87C010F033368E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC229E72CC679F5C83C0E7B9 /* Pods_IAMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F9227F1E5A00C9004D9984 /* Build configuration list for PBXNativeTarget "IAMobile" */;
 			buildPhases = (
+				A9F6E35D2E7F3CEA4BA65AEB /* [CP] Check Pods Manifest.lock */,
 				12F922691E5A00C9004D9984 /* Sources */,
 				12F9226A1E5A00C9004D9984 /* Frameworks */,
 				12F9226B1E5A00C9004D9984 /* Resources */,
+				844E608FA0FD2518F54EB810 /* [CP] Embed Pods Frameworks */,
+				DEC08EC672BCD316BA1DD1D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		844E608FA0FD2518F54EB810 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IAMobile/Pods-IAMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F6E35D2E7F3CEA4BA65AEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC08EC672BCD316BA1DD1D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IAMobile/Pods-IAMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F922691E5A00C9004D9984 /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		12F922801E5A00C9004D9984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B8EC549642494876BED9B6 /* Pods-IAMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IAMobile/Info.plist;
@@ -268,6 +344,7 @@
 		};
 		12F922811E5A00C9004D9984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E202184EF46DEAC376DA513B /* Pods-IAMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IAMobile/Info.plist;
