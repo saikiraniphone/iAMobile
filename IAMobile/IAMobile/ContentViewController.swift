@@ -28,7 +28,7 @@ class ContentViewController: UIViewController, SideMenuControllerDelegate {
     }
     
     @IBAction func presentAction() {
-        present(ViewController.fromStoryboard, animated: true, completion: nil)
+        //present(ViewController.fromStoryboard, animated: true, completion: nil)
     }
     
     var randomColor: UIColor {
