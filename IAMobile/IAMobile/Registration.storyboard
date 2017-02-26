@@ -97,6 +97,7 @@
                                         </state>
                                         <connections>
                                             <action selector="loginBtnAction:" destination="OMT-1Z-cFO" eventType="touchUpInside" id="TeU-Ud-euD"/>
+                                            <segue destination="0KQ-Fe-lhb" kind="show" id="weD-un-ncI"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="________ OR ________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJS-2x-29H">
@@ -264,4 +265,7 @@
         <image name="button" width="1146" height="140"/>
         <image name="inr_ia-logo" width="464" height="452"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="weD-un-ncI"/>
+    </inferredMetricsTieBreakers>
 </document>
