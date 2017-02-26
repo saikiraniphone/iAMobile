@@ -9,9 +9,10 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+public var isMemberLogin = true
     @IBOutlet var userNameTxf: UITextField!
     @IBOutlet var passwordTxf: UITextField!
+    @IBOutlet var optionLabel: UILabel!
     @IBAction func forgotPassWordAction(_ sender: Any) {
     }
     @IBAction func loginBtnAction(_ sender: Any) {
@@ -21,7 +22,11 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-		self.navigationController?.navigationBar.isHidden = true
+        if(self.isMemberLogin){
+        self.optionLabel.text = "MEMBER LOGIN"
+        } else {
+            self.optionLabel.text = "PROVIDER LOGIN"
+        }
 
     }
     override func viewWillAppear(_ animated: Bool) {

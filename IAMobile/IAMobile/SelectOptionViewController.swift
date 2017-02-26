@@ -1,5 +1,5 @@
 //
-//  ForgotPasswordViewController.swift
+//  SelectOptionViewController.swift
 //  IAMobile
 //
 //  Created by Ramesh Muthe on 26/02/17.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class ForgotPasswordViewController: UIViewController {
+class SelectOptionViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-		
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +22,19 @@ class ForgotPasswordViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func selectOptionAction(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Registration", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier :"loginviewController") as! LoginViewController
+        if((sender as! UIButton).tag == 1){
+            viewController.isMemberLogin = true
 
+        } else{
+            viewController.isMemberLogin = false
+
+        }
+        self.present(viewController, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

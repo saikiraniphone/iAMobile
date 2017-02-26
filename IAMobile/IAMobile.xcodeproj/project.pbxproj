@@ -20,6 +20,7 @@
 		D858EBE21E62F2F50040D66C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858EBE11E62F2F50040D66C /* LoginViewController.swift */; };
 		D858EBE41E62FC950040D66C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858EBE31E62FC950040D66C /* RegisterViewController.swift */; };
 		D858EBE61E62FCA60040D66C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858EBE51E62FCA60040D66C /* ForgotPasswordViewController.swift */; };
+		D858EBEA1E63588B0040D66C /* SelectOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858EBE91E63588B0040D66C /* SelectOptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D858EBE11E62F2F50040D66C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D858EBE31E62FC950040D66C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D858EBE51E62FCA60040D66C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D858EBE91E63588B0040D66C /* SelectOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectOptionViewController.swift; sourceTree = "<group>"; };
 		E202184EF46DEAC376DA513B /* Pods-IAMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAMobile/Pods-IAMobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				D858EBE11E62F2F50040D66C /* LoginViewController.swift */,
 				D858EBE31E62FC950040D66C /* RegisterViewController.swift */,
 				D858EBE51E62FCA60040D66C /* ForgotPasswordViewController.swift */,
+				D858EBE91E63588B0040D66C /* SelectOptionViewController.swift */,
 				12F922741E5A00C9004D9984 /* Main.storyboard */,
 				12F922771E5A00C9004D9984 /* Assets.xcassets */,
 				12F922791E5A00C9004D9984 /* LaunchScreen.storyboard */,
@@ -251,6 +254,7 @@
 				12F922731E5A00C9004D9984 /* ViewController.swift in Sources */,
 				12F922711E5A00C9004D9984 /* AppDelegate.swift in Sources */,
 				12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */,
+				D858EBEA1E63588B0040D66C /* SelectOptionViewController.swift in Sources */,
 				12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
