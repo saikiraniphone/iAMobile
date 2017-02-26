@@ -411,17 +411,17 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
     
     fileprivate var sidePanelFrame: CGRect {
         var sidePanelFrame: CGRect
-        
+         let height = navigationController?.navigationBar.frame.size.height
         let panelWidth = _preferences.drawing.sidePanelWidth
-        
+       // let height2 = centerViewController.navigationController?.navigationBar.frame.size.height
         if sidePanelPosition.isPositionedUnder {
             sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? 0 :
-                screenSize.width - panelWidth, y: 0, width: panelWidth, height: screenSize.height)
+                screenSize.width - panelWidth, y:  height ?? 64, width: panelWidth, height: screenSize.height-64)
         } else {
             if sidePanelVisible {
-                sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? 0 : screenSize.width - panelWidth, y: 0, width: panelWidth, height: screenSize.height)
+                sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? 0 : screenSize.width - panelWidth, y: height ?? 64, width: panelWidth, height: screenSize.height-64)
             } else {
-                sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? -panelWidth : screenSize.width, y: 0, width: panelWidth, height: screenSize.height)
+                sidePanelFrame = CGRect(x: sidePanelPosition.isPositionedLeft ? -panelWidth : screenSize.width, y: height ?? 64, width: panelWidth, height: screenSize.height-64)
             }
         }
         

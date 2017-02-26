@@ -13,7 +13,7 @@ class ContentViewController: UIViewController, SideMenuControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.barTintColor = randomColor
+        self.navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 0, green: 0, blue: 1/255.0, alpha: 1.0)
         sideMenuController?.delegate = self
     }
     
