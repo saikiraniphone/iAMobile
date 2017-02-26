@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */; };
+		12A9A5951E62CAF40053F8E5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */; };
+		12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5931E62CAF40053F8E5 /* MenuController.swift */; };
 		12F922711E5A00C9004D9984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F922701E5A00C9004D9984 /* AppDelegate.swift */; };
 		12F922731E5A00C9004D9984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F922721E5A00C9004D9984 /* ViewController.swift */; };
 		12F922761E5A00C9004D9984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F922741E5A00C9004D9984 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		12A9A5811E61ED5E0053F8E5 /* IAMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		12A9A5931E62CAF40053F8E5 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		12F9226D1E5A00C9004D9984 /* IAMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F922701E5A00C9004D9984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F922721E5A00C9004D9984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				12F922791E5A00C9004D9984 /* LaunchScreen.storyboard */,
 				12F9227C1E5A00C9004D9984 /* Info.plist */,
 				12A9A5811E61ED5E0053F8E5 /* IAMobile-Bridging-Header.h */,
+				12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */,
+				12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */,
+				12A9A5931E62CAF40053F8E5 /* MenuController.swift */,
 			);
 			path = IAMobile;
 			sourceTree = "<group>";
@@ -214,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A9A5951E62CAF40053F8E5 /* ContentViewController.swift in Sources */,
 				12F922731E5A00C9004D9984 /* ViewController.swift in Sources */,
 				12F922711E5A00C9004D9984 /* AppDelegate.swift in Sources */,
+				12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */,
+				12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
