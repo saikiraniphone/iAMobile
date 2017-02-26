@@ -22,6 +22,8 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+		self.navigationController?.navigationBar.isHidden = true
+
     }
 
     override func didReceiveMemoryWarning() {
