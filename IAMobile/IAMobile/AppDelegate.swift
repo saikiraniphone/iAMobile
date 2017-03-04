@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+		
 		// Override point for customization after application launch.
 		SideMenuController.preferences.drawing.menuButtonImage = UIImage(named: "act_menu")
 
@@ -23,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		SideMenuController.preferences.drawing.centerPanelShadow = true
 		SideMenuController.preferences.animating.statusBarBehaviour = .fadeAnimation
 
+		Utilities.sharedInstance.testMethod()
+		
 		return true
 	}
 

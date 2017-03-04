@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129EC74D1E6B275400B28D75 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC74C1E6B275400B28D75 /* Utilities.swift */; };
 		12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */; };
 		12A9A5951E62CAF40053F8E5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */; };
 		12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5931E62CAF40053F8E5 /* MenuController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		129EC74C1E6B275400B28D75 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		12A9A5811E61ED5E0053F8E5 /* IAMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAMobile-Bridging-Header.h"; sourceTree = "<group>"; };
 		12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSideMenuController.swift; path = ../CustomSideMenuController.swift; sourceTree = "<group>"; };
 		12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = ../ContentViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		12A9A5971E62D8440053F8E5 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				129EC74C1E6B275400B28D75 /* Utilities.swift */,
 				12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */,
 				12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */,
 				12A9A5931E62CAF40053F8E5 /* MenuController.swift */,
@@ -255,6 +258,7 @@
 				12F922711E5A00C9004D9984 /* AppDelegate.swift in Sources */,
 				12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */,
 				D858EBEA1E63588B0040D66C /* SelectOptionViewController.swift in Sources */,
+				129EC74D1E6B275400B28D75 /* Utilities.swift in Sources */,
 				12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
