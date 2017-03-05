@@ -13,7 +13,8 @@ class CustomSideMenuController: SideMenuController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        performSegue(withIdentifier: "showCenterController1", sender: nil)
+        performSegue(withIdentifier: "showDashBoardVC", sender: nil)
         performSegue(withIdentifier: "containSideMenu", sender: nil)
+		self.navigationController?.navigationBar.isHidden = true
     }
 }

@@ -15,6 +15,7 @@ class SelectOptionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+		navigationController?.navigationBar.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {

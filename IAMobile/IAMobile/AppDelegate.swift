@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IAMobile
 //
-//  Created by komirsa1 on 19/02/17.
+//  Created by sai on 19/02/17.
 //  Copyright © 2017 Sai. All rights reserved.
 //
 
@@ -17,12 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
 		// Override point for customization after application launch.
+		
+
 		SideMenuController.preferences.drawing.menuButtonImage = UIImage(named: "act_menu")
 
 		SideMenuController.preferences.drawing.sidePanelPosition = .overCenterPanelLeft
 		SideMenuController.preferences.drawing.sidePanelWidth = 300
 		SideMenuController.preferences.drawing.centerPanelShadow = true
 		SideMenuController.preferences.animating.statusBarBehaviour = .fadeAnimation
+		
 
 		Utilities.sharedInstance.testMethod()
 		

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		129EC74D1E6B275400B28D75 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC74C1E6B275400B28D75 /* Utilities.swift */; };
+		129EC7511E6B27C600B28D75 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC74E1E6B27C600B28D75 /* CircleView.swift */; };
+		129EC7521E6B27C600B28D75 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC74F1E6B27C600B28D75 /* DashBoardVC.swift */; };
+		129EC7531E6B27C600B28D75 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129EC7501E6B27C600B28D75 /* TableViewCell.swift */; };
 		12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */; };
 		12A9A5951E62CAF40053F8E5 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */; };
 		12A9A5961E62CAF40053F8E5 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9A5931E62CAF40053F8E5 /* MenuController.swift */; };
@@ -26,6 +29,9 @@
 
 /* Begin PBXFileReference section */
 		129EC74C1E6B275400B28D75 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		129EC74E1E6B27C600B28D75 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		129EC74F1E6B27C600B28D75 /* DashBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		129EC7501E6B27C600B28D75 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		12A9A5811E61ED5E0053F8E5 /* IAMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IAMobile-Bridging-Header.h"; sourceTree = "<group>"; };
 		12A9A5911E62CAF40053F8E5 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSideMenuController.swift; path = ../CustomSideMenuController.swift; sourceTree = "<group>"; };
 		12A9A5921E62CAF40053F8E5 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = ../ContentViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 		12F9226F1E5A00C9004D9984 /* IAMobile */ = {
 			isa = PBXGroup;
 			children = (
+				129EC74E1E6B27C600B28D75 /* CircleView.swift */,
+				129EC74F1E6B27C600B28D75 /* DashBoardVC.swift */,
+				129EC7501E6B27C600B28D75 /* TableViewCell.swift */,
 				12A9A5971E62D8440053F8E5 /* SideMenu */,
 				12F922701E5A00C9004D9984 /* AppDelegate.swift */,
 				12F922721E5A00C9004D9984 /* ViewController.swift */,
@@ -250,12 +259,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129EC7531E6B27C600B28D75 /* TableViewCell.swift in Sources */,
 				D858EBE61E62FCA60040D66C /* ForgotPasswordViewController.swift in Sources */,
 				D858EBE21E62F2F50040D66C /* LoginViewController.swift in Sources */,
 				12A9A5951E62CAF40053F8E5 /* ContentViewController.swift in Sources */,
 				D858EBE41E62FC950040D66C /* RegisterViewController.swift in Sources */,
 				12F922731E5A00C9004D9984 /* ViewController.swift in Sources */,
+				129EC7521E6B27C600B28D75 /* DashBoardVC.swift in Sources */,
 				12F922711E5A00C9004D9984 /* AppDelegate.swift in Sources */,
+				129EC7511E6B27C600B28D75 /* CircleView.swift in Sources */,
 				12A9A5941E62CAF40053F8E5 /* CustomSideMenuController.swift in Sources */,
 				D858EBEA1E63588B0040D66C /* SelectOptionViewController.swift in Sources */,
 				129EC74D1E6B275400B28D75 /* Utilities.swift in Sources */,
